@@ -5,10 +5,7 @@ It includes pipelines exported from MongoDB Compass and driver code for both **P
 
 ## Files
 - `age_group_agg.js` – Aggregation pipeline (Mongo Shell / Node.js format)
-- `pipeline_analysis.py` – Aggregation pipeline (Python driver format)
-- `pipeline_analysis.js` – Aggregation pipeline (Node.js driver format)
-- `healthfit_pipeline.json` – (Optional) Raw JSON export from Compass
-
+- `age_group_agg.py' - Aggregation pipeline (Python driver / PyMongo format)
 ## How to Run
 
 ### Using Mongo Shell / Node.js
