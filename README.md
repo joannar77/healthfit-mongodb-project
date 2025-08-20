@@ -5,7 +5,7 @@ It includes pipelines exported from MongoDB Compass and driver code for both **P
 
 ## Files
 - `age_group_agg.js` – Aggregation pipeline (Mongo Shell / Node.js format)
-- `age_group_agg.py' - Aggregation pipeline (Python driver / PyMongo format)
+- `age_group_agg.js` - Aggregation pipeline (Python driver / PyMongo format)
 ## How to Run
 
 ### Using Mongo Shell / Node.js
