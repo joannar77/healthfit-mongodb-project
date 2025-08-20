@@ -30,11 +30,11 @@ Each query includes four files:
 
 2. For Node.js (Mongo Shell format):
    
-mongo < age_group_agg.js
+   mongo < age_group_agg.js
 
 3. For Python (PyMongo Driver)
 
-python age_group_agg.py
+   python age_group_agg.py
 
 ## Key Takeaways
 
