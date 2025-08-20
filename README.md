@@ -1,3 +1,6 @@
+## My Design Process Video: I recorded a short video explaining the design process and decisions behind this project.  
+[Watch on Vimeo](https://vimeo.com/VIDEO_LINK)
+
 # HealthFit Data Analysis (MongoDB Aggregations)
 
 This project demonstrates how MongoDB aggregation pipelines can be used to generate actionable health and business insights.  
