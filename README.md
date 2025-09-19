@@ -3,21 +3,17 @@
 This project demonstrates how MongoDB aggregation pipelines can be used to generate actionable health and business insights.  
 It includes both baseline queries and optimized versions (for performance improvements), exported in JavaScript (Node.js) and Python formats.  
 
-**My Design Process Video:** 
+### My Design Process Video: 
 
 In this video I explain my design process and decisions behind this project:
 [Watch on Vimeo](https://vimeo.com/1101080044/6d02eeb9ff)
 
----
-
-## Project Goals
+### Project Goals
 - **Age Group Segmentation** → Merge siloed demographic and tracker data for better segmentation and targeted health insights.  
 - **Popular Models** → Identify the most trusted brands among users with health conditions, supporting data-driven clinical recommendations and partnerships.  
 - **Average Price Analysis** → Provide insights into device pricing vs. brand popularity to guide affordability and accessibility decisions.
 
----
-
-## Repository Structure
+### Repository Structure
 Each pipeline folder contains:
 - **Unoptimized queries:** Python (`.py`) and JavaScript (`.js`)  
 - **Optimized queries:** Python (`.py`) and JavaScript (`.js`)  
@@ -40,9 +36,8 @@ pipelines/
 ├─ popular_models_optimized.py
 └─ popular_models_optimized.js
 ```
----
 
-## How to Run
+### How to Run
 
 Clone this repository:
    ```bash
@@ -58,9 +53,8 @@ For Python (PyMongo Driver)
    ```
    python pipelines/age_group/age_group.py
    ```
----
 
-## Key Takeaways
+### Key Takeaways
 
 Shows ability to design and optimize MongoDB aggregation pipelines for real-world business problems.
 
