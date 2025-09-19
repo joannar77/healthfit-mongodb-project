@@ -40,6 +40,7 @@ pipelines/
 ├─ popular_models_optimized.py
 └─ popular_models_optimized.js
 ```
+---
 
 ## How to Run
 
@@ -57,6 +58,7 @@ For Python (PyMongo Driver)
    ```
    python pipelines/age_group/age_group.py
    ```
+---
 
 ## Key Takeaways
 
@@ -67,5 +69,3 @@ Demonstrates proficiency in both JavaScript (Node.js) and Python (PyMongo driver
 Highlights data integration, segmentation, and pricing analysis skills relevant to healthcare and business analytics.
 
 Provides a foundation for scaling to larger datasets and building dashboards for visualization.
-
-
