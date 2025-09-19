@@ -43,18 +43,19 @@ pipelines/
 
 ## How to Run
 
-1. Clone this repository:
+Clone this repository:
    ```bash
    git clone https://github.com/joannar77/healthfit-mongodb-project.git
    cd healthfit-mongodb-project
 
-2. For Node.js (Mongo Shell format):
-   
+For Node.js (Mongo Shell format):
+   ```
    mongo < pipelines/age_group/age_group.js
-
-3. For Python (PyMongo Driver)
-
+   ```
+For Python (PyMongo Driver)
+   ```
    python pipelines/age_group/age_group.py
+   ```
 
 ## Key Takeaways
 
