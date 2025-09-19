@@ -4,6 +4,7 @@ This project demonstrates how MongoDB aggregation pipelines can be used to gener
 It includes both baseline queries and optimized versions (for performance improvements), exported in JavaScript (Node.js) and Python formats.  
 
 ** My Design Process Video:** 
+
 In this video I explain my design process and decisions behind this project:
 [Watch on Vimeo](https://vimeo.com/1101080044/6d02eeb9ff)
 
