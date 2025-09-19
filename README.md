@@ -1,4 +1,4 @@
-# HealthFit Data Analysis (MongoDB Aggregations)
+# HealthFit Data Analysis - MongoDB Aggregations
 
 This project demonstrates how MongoDB aggregation pipelines can be used to generate actionable health and business insights.  
 It includes both baseline queries and optimized versions (for performance improvements), exported in JavaScript (Node.js) and Python formats.  
