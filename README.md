@@ -47,6 +47,7 @@ Clone this repository:
    ```bash
    git clone https://github.com/joannar77/healthfit-mongodb-project.git
    cd healthfit-mongodb-project
+   ```
 
 For Node.js (Mongo Shell format):
    ```
