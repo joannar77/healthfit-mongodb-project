@@ -3,38 +3,55 @@
 This project demonstrates how MongoDB aggregation pipelines can be used to generate actionable health and business insights.  
 It includes both baseline queries and optimized versions (for performance improvements), exported in JavaScript (Node.js) and Python formats.  
 
-## My Design Process Video: I recorded a short video explaining the design process and decisions behind this project.  
-[Watch My Design Process for this Project on Vimeo](https://vimeo.com/VIDEO_LINK)
+** My Design Process Video:** 
+In this video I explain my design process and decisions behind this project:
+[Watch on Vimeo](https://vimeo.com/1101080044/6d02eeb9ff)
+
+---
 
 ## Project Goals
-
-The aggregation queries were designed to solve real-world problems in health data analysis:  
-
 - **Age Group Segmentation** → Merge siloed demographic and tracker data for better segmentation and targeted health insights.  
 - **Popular Models** → Identify the most trusted brands among users with health conditions, supporting data-driven clinical recommendations and partnerships.  
-- **Average Price Analysis** → Provide insights into device pricing vs. brand popularity to guide affordability and accessibility decisions.  
+- **Average Price Analysis** → Provide insights into device pricing vs. brand popularity to guide affordability and accessibility decisions.
+
+---
 
 ## Repository Structure
+Each pipeline folder contains:
+- **Unoptimized queries:** Python (`.py`) and JavaScript (`.js`)  
+- **Optimized queries:** Python (`.py`) and JavaScript (`.js`)  
 
-Each query includes four files:  
-
-- **Unoptimized:** JavaScript (.js) and Python (.py) versions  
-- **Optimized:** JavaScript (.js) and Python (.py) versions  
+pipelines/
+├─ age_group/
+│ ├─ age_group.py
+│ ├─ age_group.js
+│ ├─ age_group_optimized.py
+│ └─ age_group_optimized.js
+├─ avg_price/
+│ ├─ avg_price.py
+│ ├─ avg_price.js
+│ ├─ avg_price_optimized.py
+│ └─ avg_price_optimized.js
+└─ popular_models/
+├─ popular_models.py
+├─ popular_models.js
+├─ popular_models_optimized.py
+└─ popular_models_optimized.js
 
 ## How to Run
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/joannar77/healthfit-analysis.git
-   cd healthfit-analysis
+   git clone https://github.com/joannar77/healthfit-mongodb-project.git
+   cd healthfit-mongodb-project
 
 2. For Node.js (Mongo Shell format):
    
-   mongo < age_group_agg.js
+   mongo < pipelines/age_group/age_group.js
 
 3. For Python (PyMongo Driver)
 
-   python age_group_agg.py
+   python pipelines/age_group/age_group.py
 
 ## Key Takeaways
 
