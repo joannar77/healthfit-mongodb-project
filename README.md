@@ -6,7 +6,11 @@ It includes both baseline queries and optimized versions (for performance improv
 ### My Design Process Video: 
 
 In this video I explain my design process and decisions behind this project:
-[Watch on Vimeo](https://vimeo.com/1101080044/6d02eeb9ff)
+<p align="center">
+  <a href="https://vimeo.com/1101080044/6d02eeb9ff" target="_blank">
+    <img src="images/MongoWalkthrough.png" alt="Watch Project Walkthrough Video" width="300"/>
+  </a>
+</p>
 
 ### Project Goals
 - **Age Group Segmentation** → Merge siloed demographic and tracker data for better segmentation and targeted health insights.  
