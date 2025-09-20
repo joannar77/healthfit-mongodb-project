@@ -8,7 +8,9 @@ It includes both baseline queries and optimized versions (for performance improv
 In this video I explain my design process and decisions behind this project:
 <p align="center">
   <a href="https://vimeo.com/1101080044/6d02eeb9ff" target="_blank">
-    <img src="images/MongoWalkthrough.png" alt="Watch Project Walkthrough Video" width="300"/>
+    <img src="images/mongo.png" alt="Watch Project Walkthrough Video" width="300"/>
+    <br/>
+    ▶️
   </a>
 </p>
 
