@@ -6,7 +6,7 @@ This project includes a **business analysis phase** that translates stakeholder 
 
 This document contains the detailed rationale, controls, and implementation guidance.
 
-[View PDF](docs/healthfit-database-design.pdf)
+[View PDF](./healthfit-database-design.pdf)
   
 ### Scope of Work
 - Defined business constraints and target outcomes; mapped them to technical requirements.
