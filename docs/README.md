@@ -2,8 +2,11 @@
 
 This project includes a **business analysis phase** that translates stakeholder needs into a technical data solution.
 
-**Database Design (Business-Facing)**  
-  [View PDF](docs/healthfit-database-design.pdf)
+**Database Design (Business-Facing)** 
+
+This document contains the detailed rationale, controls, and implementation guidance.
+
+[View PDF](docs/healthfit-database-design.pdf)
   
 ### Scope of Work
 - Defined business constraints and target outcomes; mapped them to technical requirements.
@@ -12,6 +15,8 @@ This project includes a **business analysis phase** that translates stakeholder 
 - Established KPIs and expected effects on time-to-insight, reliability, and scale.
 - Delivered implementation guidance: aggregation pipelines, indexing, and optimization.
   
-### Crossover skills highlighted
-**Business Analysis:** requirements gathering, process/architecture mapping, compliance/risk assessment, ROI/impact framing  
-**Data Science/Engineering:** schema design, aggregation pipelines, performance optimization, real-time analytics
+### Deliverables & Outcomes
+- **Problem–Mission Fit:** Defines data silos and scale constraints and connects them to HealthFit’s mission and product goals.
+- **Requirements & Architecture Rationale:** Justifies a document-oriented design (MongoDB) for schema flexibility, sharding, and real-time workloads.
+- **Risk & Compliance Controls:** Specifies HIPAA/GDPR guardrails, RBAC, encryption, and auditability.
+- **Operational Impact:** Lowers latency for alerts/analytics and scales with high-velocity device data and multi-tenant growth.
