@@ -1,71 +1,180 @@
-# HealthFit Data Analysis - MongoDB Aggregations
+# 🍃 HealthFit Data Analysis – MongoDB Aggregations
 
-This project demonstrates how MongoDB aggregation pipelines can be used to generate actionable health and business insights.  
-It includes both baseline queries and optimized versions (for performance improvements), exported in JavaScript (Node.js) and Python formats.  
+![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-green)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-Node.js-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-### My Design Process Video: 
+---
 
-In this video I explain my design process and decisions behind this project:
+# Project Overview
+
+This project demonstrates how **MongoDB aggregation pipelines** can be used to transform raw health tracker data into actionable business and healthcare insights.
+
+The analysis combines demographic and device data to answer business questions related to customer segmentation, device popularity, and pricing. Each aggregation pipeline includes both an original implementation and an optimized version to demonstrate query optimization techniques and performance improvements.
+
+---
+
+# Business Question
+
+**How can MongoDB aggregation pipelines be used to generate actionable insights from health tracker data while improving query performance?**
+
+---
+
+# Skills Demonstrated
+
+- MongoDB Aggregation Pipelines
+- NoSQL Database Design
+- Query Optimization
+- Data Integration
+- Business Analytics
+- Healthcare Analytics
+- Python (PyMongo)
+- JavaScript (Mongo Shell / Node.js)
+
+---
+
+# Technologies
+
+- MongoDB
+- Python
+- PyMongo
+- JavaScript
+- Mongo Shell
+- Node.js
+
+---
+
+# 🎥 Project Walkthrough
+
+A complete walkthrough of the project is available on Vimeo. The presentation explains the database design, aggregation pipelines, optimization techniques, and business insights generated from the HealthFit dataset.
+
+▶️ **Watch the Project Presentation**
+
+https://vimeo.com/1205140119
+
+---
+
+# Design Process
+
+This repository also includes a separate design walkthrough explaining the planning and implementation decisions behind the project.
+
 <p align="center">
   <a href="https://vimeo.com/1101080044/6d02eeb9ff" target="_blank">
-    <img src="images/mongo.png" alt="Watch Project Walkthrough Video" width="300"/>
+    <img src="images/mongo.png" alt="Watch Design Process Video" width="300"/>
     <br/>
-    ▶️
+    ▶️ Watch the Design Process
   </a>
 </p>
 
-### Project Goals
-- **Age Group Segmentation** → Merge siloed demographic and tracker data for better segmentation and targeted health insights.  
-- **Popular Models** → Identify the most trusted brands among users with health conditions, supporting data-driven clinical recommendations and partnerships.  
-- **Average Price Analysis** → Provide insights into device pricing vs. brand popularity to guide affordability and accessibility decisions.
+---
 
-### Repository Structure
-Each pipeline folder contains:
-- **Unoptimized queries:** Python (`.py`) and JavaScript (`.js`)  
-- **Optimized queries:** Python (`.py`) and JavaScript (`.js`)  
+# Project Goals
 
-```
+### Age Group Segmentation
+
+Merge demographic and health tracker data to support customer segmentation and targeted health insights.
+
+### Popular Device Models
+
+Identify the most commonly used wearable devices among individuals with health conditions to support business partnerships and healthcare recommendations.
+
+### Average Price Analysis
+
+Evaluate relationships between device pricing and popularity to support affordability and purchasing decisions.
+
+---
+
+# Repository Structure
+
+Each aggregation pipeline contains both original and optimized implementations in Python and JavaScript.
+
+```text
 pipelines/
-├─ age_group/
-│ ├─ age_group.py
-│ ├─ age_group.js
-│ ├─ age_group_optimized.py
-│ └─ age_group_optimized.js
-├─ avg_price/
-│ ├─ avg_price.py
-│ ├─ avg_price.js
-│ ├─ avg_price_optimized.py
-│ └─ avg_price_optimized.js
-└─ popular_models/
-├─ popular_models.py
-├─ popular_models.js
-├─ popular_models_optimized.py
-└─ popular_models_optimized.js
+├── age_group/
+│   ├── age_group.py
+│   ├── age_group.js
+│   ├── age_group_optimized.py
+│   └── age_group_optimized.js
+│
+├── avg_price/
+│   ├── avg_price.py
+│   ├── avg_price.js
+│   ├── avg_price_optimized.py
+│   └── avg_price_optimized.js
+│
+└── popular_models/
+    ├── popular_models.py
+    ├── popular_models.js
+    ├── popular_models_optimized.py
+    └── popular_models_optimized.js
 ```
 
-### How to Run
+---
 
-Clone this repository:
-   ```bash
-   git clone https://github.com/joannar77/healthfit-mongodb-project.git
-   cd healthfit-mongodb-project
-   ```
+# Running the Project
 
-For Node.js (Mongo Shell format):
-   ```
-   mongo < pipelines/age_group/age_group.js
-   ```
-For Python (PyMongo Driver)
-   ```
-   python pipelines/age_group/age_group.py
-   ```
+Clone the repository:
 
-### Key Takeaways
+```bash
+git clone https://github.com/joannar77/healthfit-mongodb-project.git
+cd healthfit-mongodb-project
+```
 
-Shows ability to design and optimize MongoDB aggregation pipelines for real-world business problems.
+### JavaScript (Mongo Shell)
 
-Demonstrates proficiency in both JavaScript (Node.js) and Python (PyMongo driver).
+```bash
+mongo < pipelines/age_group/age_group.js
+```
 
-Highlights data integration, segmentation, and pricing analysis skills relevant to healthcare and business analytics.
+### Python (PyMongo)
 
-Provides a foundation for scaling to larger datasets and building dashboards for visualization.
+```bash
+python pipelines/age_group/age_group.py
+```
+
+---
+
+# Key Insights
+
+The aggregation pipelines demonstrate how MongoDB can efficiently support business intelligence by:
+
+- Integrating multiple collections
+- Segmenting customers by demographic characteristics
+- Identifying popular wearable device models
+- Comparing pricing across manufacturers
+- Optimizing aggregation performance for large datasets
+
+---
+
+# Business Value
+
+This project demonstrates how NoSQL databases can support data-driven decision making by:
+
+- Improving customer segmentation
+- Supporting healthcare analytics
+- Identifying product adoption trends
+- Evaluating pricing strategies
+- Optimizing complex aggregation queries
+
+---
+
+# Repository Contents
+
+- MongoDB aggregation pipelines
+- Optimized aggregation pipelines
+- Python implementations
+- JavaScript implementations
+- HealthFit sample dataset
+- Project documentation
+
+---
+
+# Author
+
+**Joanna Ronchi**
+
+- Master of Science in Data Science
+- Bachelor of Science in Information Technology Management
+
+GitHub: https://github.com/joannar77
