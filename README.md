@@ -23,7 +23,7 @@ How can MongoDB aggregation pipelines be used to generate actionable insights fr
 
 ## Project Outcomes
 
-![MongoDB Project Outcomes](images/mongo_db_project_outcomes.png)
+![MongoDB Project Outcomes](https://raw.githubusercontent.com/joannar77/healthfit-mongodb-project/main/images/mongo_db_project_outcomes.png)
 
 # Skills Demonstrated
 
