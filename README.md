@@ -23,9 +23,7 @@ How can MongoDB aggregation pipelines be used to generate actionable insights fr
 
 ## Project Outcomes
 
-<p align="center">
-  <img src="mongo_db_project_outcomes.png" alt="MongoDB Project Outcomes" width="900">
-</p>
+![MongoDB Project Outcomes](images/mongo_db_project_outcomes.png)
 
 # Skills Demonstrated
 
