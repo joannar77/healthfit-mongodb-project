@@ -21,6 +21,12 @@ The analysis combines demographic and device data to answer business questions r
 
 ---
 
+## Project Outcomes
+
+<p align="center">
+  <img src="mongo_db_project_outcomes.png" alt="MongoDB Project Outcomes" width="900">
+</p>
+
 # Skills Demonstrated
 
 - MongoDB Aggregation Pipelines
