@@ -17,7 +17,7 @@ The analysis combines demographic and device data to answer business questions r
 
 # Business Question
 
-**How can MongoDB aggregation pipelines be used to generate actionable insights from health tracker data while improving query performance?**
+How can MongoDB aggregation pipelines be used to generate actionable insights from health tracker data while improving query performance?**
 
 ---
 
